@@ -1,0 +1,74 @@
+[
+  {
+    "id": "start",
+    "next": [
+      {
+        "outcome": "process",
+        "type": "one"
+      }
+    ],
+    "size": null
+  },
+  {
+    "id": "documents",
+    "next": [
+      {
+        "outcome": "process",
+        "type": "one"
+      }
+    ],
+    "size": null
+  },
+  {
+    "id": "process",
+    "next": [
+      {
+        "outcome": "decision",
+        "type": "one"
+      }
+    ],
+    "size": null
+  },
+  {
+    "id": "decision",
+    "next": [
+      {
+        "outcome": "processA",
+        "type": "one"
+      },
+      {
+        "outcome": "processB",
+        "type": "one"
+      }
+    ],
+    "size": {
+      "width": 100.0,
+      "height": 100.0
+    }
+  },
+  {
+    "id": "processA",
+    "next": [
+      {
+        "outcome": "end",
+        "type": "one"
+      }
+    ],
+    "size": null
+  },
+  {
+    "id": "processB",
+    "next": [
+      {
+        "outcome": "end",
+        "type": "one"
+      }
+    ],
+    "size": null
+  },
+  {
+    "id": "end",
+    "next": [],
+    "size": null
+  }
+]

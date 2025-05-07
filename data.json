@@ -1,0 +1,30 @@
+{
+  "start": {
+    "text": "Start",
+    "type": "start"
+  },
+  "documents": {
+    "text": "Documents",
+    "type": "documents"
+  },
+  "process": {
+    "text": "Process",
+    "type": "process"
+  },
+  "decision": {
+    "text": "Decision",
+    "type": "decision"
+  },
+  "processA": {
+    "text": "Process A",
+    "type": "process"
+  },
+  "processB": {
+    "text": "Process B",
+    "type": "process"
+  },
+  "end": {
+    "text": "End",
+    "type": "end"
+  }
+}
